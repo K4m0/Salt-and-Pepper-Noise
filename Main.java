@@ -19,7 +19,7 @@ public class Main  {
 		try
 		{
 			//Se carga la imagen
-			BufferedImage image1 = ImageIO.read(new File("/Users/jpulidom/workspace/RuidoS&P/src/Images/Homero.jpg"));
+			BufferedImage image1 = ImageIO.read(new File("/Homero.jpg"));
 			int width = image1.getWidth();
 			int height = image1.getHeight();
 			
@@ -40,7 +40,7 @@ public class Main  {
 	         }
 			
 			try{
-			      f = new File("/Users/jpulidom/workspace/RuidoS&P/src/Images/saved.jpg");
+			      f = new File("/saved.jpg");
 			      ImageIO.write(image1, "jpg", f);
 			    }catch(IOException e){
 			      System.out.println(e);
